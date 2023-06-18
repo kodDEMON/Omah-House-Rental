@@ -33,6 +33,7 @@ nav {
 .logo {
   display: flex;
   align-items: end;
+  position: relative;
 }
 .logo > p {
   font-weight: 500;
@@ -45,8 +46,8 @@ nav {
   border-radius: 50%;
   width: 6px;
   height: 6px;
-  left: 214px;
-  top: 58px;
+  right: -6px;
+  bottom: 9px;
 }
 .nav-right {
   display: flex;
@@ -88,6 +89,7 @@ nav {
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  position: relative;
 }
 .hero > .txt-c {
   display: flex;
@@ -129,7 +131,7 @@ nav {
   width: 890px;
   position: absolute;
   border-radius: 14px;
-  bottom: 40px;
+  bottom: -50px;
 }
 .search-box > .preferences {
   display: flex;
